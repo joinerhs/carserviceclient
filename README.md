@@ -26,16 +26,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## car edit
-En este componente el usuario puede acceder a la información de un carro y editarla, para ello se creo un modelo y un servicio para los carros.
+primero se creo un servicio para consumir la api
 
-## car list
-En este componente se enlista los carros disponibles, además podra acceder al boton para poder editar los carros. De igual manera se utilizo el modelo y el servicio para los carros.
+## car edit
+En el componente de car edit se puede acceder a la información de un carro y editarla, tambien se podrá modificar un car, agregar el dni de un owner y eliminarlos.
 
 ## owner edit
-En este componente el usuario podra modificar la información del propietario del carro. Para llevar a cabo esto se utilizo un modelo y un servicio para el owner.
+En este componente se podra modificar la información del propietario del carro. para guardar se trabajo sobre el metodo save que trabaja con un parametro href actualizando el owner y para eliminar el owner setrabaja con un parametro href.
+
+## car list
+En este componente se muestra la lista de los carros disponibles, además podra acceder al boton para poder editar los carros y eliminarlos.
 
 ## owner list
 En este componente el usuario tendrá acceso a todos los propietarios, de igual manera tendrá acceso al botón para editarlos, podra crear uno nuevo y eliminar el que desee. Para realizar esto, se utilizó el modelo y el servicio del owner.
-
 
